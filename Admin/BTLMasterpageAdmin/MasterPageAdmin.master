@@ -1,0 +1,214 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageAdmin.master.cs" Inherits="BTLMasterpageAdmin_MasterPageAdmin" %>
+
+<!DOCTYPE html>
+
+<html>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 187px;
+            margin-top: 0px;
+        }
+        .auto-style2 {
+            width: 323px;
+        }
+        .auto-style3 {
+            height: 126px;
+        }
+        .auto-style4 {
+            height: 35px;
+
+        }
+        .auto-style6 {
+            height: 126px;
+            width: 100px;
+        }
+        .auto-style7 {
+            height: 126px;
+            width: 593px;
+        }
+        .auto-style16 {
+            width: 100%;
+        }
+        .auto-style17 {
+            height: 23px;
+        }
+        .auto-style18 {
+            height: 23px;
+            width: 250px;
+        }
+        .auto-style19 {
+            margin-left: 81px;
+        }
+        .auto-style20 {
+            margin-right: 0px;
+        }
+        .auto-style21 {
+            width: 111px;
+            height: 23px;
+            margin-left: 40px;
+        }
+        .auto-style22 {
+            height: 23px;
+            width: 111px;
+        }
+        .auto-style26 {
+            height: 23px;
+            width: 230px;
+        }
+        .auto-style27 {
+            height: 23px;
+            width: 111px;
+        }
+        .auto-style28 {
+            height: 23px;
+            width: 111px;
+        }
+        .auto-style29 {
+            height: 23px;
+            width: 111px;
+        }
+        .auto-style30 {
+            height: 23px;
+            width: 98px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:Panel ID="Panel1" runat="server" BackColor="Black" Height="30px">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+            <asp:LinkButton ID="LinkButton2" runat="server" Font-Bold="True" Font-Names="Trebuchet MS" Font-Underline="False" ForeColor="White" PostBackUrl="~/Page/DangNhap.aspx">ĐĂNG XUẤT</asp:LinkButton>
+            &nbsp;&nbsp;<asp:ImageButton ID="ImageButton2" runat="server" Height="20px" ImageUrl="~/image/images.png" Width="40px" />
+            &nbsp;
+            <asp:ImageButton ID="ImageButton3" runat="server" Height="20px" ImageUrl="~/image/en.png" Width="40px" />
+        </asp:Panel>
+        <asp:Panel ID="Panel2" runat="server" BackColor="#750000" Height="188px">
+            <table class="auto-style1">
+                <tr>
+                    <td class="auto-style2" rowspan="2" style="border-color: #FFFFFF; border-width: 0px 1px 0px 0px; border-right-style: solid;">
+                        &nbsp;<asp:ImageButton ID="ImageButton6" runat="server" CssClass="auto-style19" Height="92px" ImageUrl="~/image/logo1.png" Width="150px" PostBackUrl="~/TrangChu.aspx" />
+                    </td>
+                    <td class="auto-style7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="Yellow" Text="WEB SITE BÁN HÀNG ONLINE"></asp:Label>
+                        &nbsp;<br />
+                        <br />
+                        &nbsp;&nbsp;&nbsp;
+                        <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="White" Text="NƠI HỘI TỤ NHỮNG SẢN PHẨM RƯỢU VANG TỐT NHẤT"></asp:Label>
+                    </td>
+                    <td class="auto-style6">
+                        <br />
+                        <br />
+                        <asp:TextBox ID="TextBox1" runat="server" Height="23px" Enabled="False" ForeColor="#FF99CC" OnTextChanged="Page_Load"></asp:TextBox>
+                        <br />
+                        <br />
+                        <asp:Label ID="Label4" runat="server" Font-Bold="True" ForeColor="White" Text="Hotline:"></asp:Label>
+                        <asp:Label ID="Label5" runat="server" Font-Bold="True" ForeColor="#CC0000" Text="0868.638.888"></asp:Label>
+                    </td>
+                    <td class="auto-style3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:ImageButton ID="ImageButton1" runat="server" BackColor="Maroon" BorderColor="#CC0000" BorderStyle="Double" BorderWidth="2px" Height="62px" ImageUrl="~/image/logo2.jpg" />
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style4" style="border-top-style: groove; border-width: 1px; border-color: #FFFFFF" colspan="3">&nbsp;&nbsp;
+                        <table class="auto-style16">
+                            <tr>
+                                <td class="auto-style21">
+                                    <asp:LinkButton ID="LinkButton3" runat="server" Font-Bold="True" Font-Names=".VnArial" Font-Underline="False" ForeColor="White" PostBackUrl="~/Admin/Page/QuanLiTaiKhoan.aspx" Width="170px" CausesValidation="False">QUẢN LÍ TÀI KHOẢN</asp:LinkButton>
+                                </td>
+                                <td class="auto-style22">
+                                    <asp:LinkButton ID="LinkButton9" runat="server" Font-Bold="True" Font-Names=".VnArial" Font-Underline="False" ForeColor="White" PostBackUrl="~/Admin/Page/QuanLiDanhMuc.aspx" Width="170px" CausesValidation="False">QUẢN LÍ DANH MỤC</asp:LinkButton>
+                                </td>
+                                <td class="auto-style30">
+                                    <asp:LinkButton ID="LinkButton4" runat="server" Font-Bold="True" Font-Names=".VnArial" Font-Underline="False" ForeColor="White" PostBackUrl="~/Admin/Page/QuanLiHang.aspx" Width="133px" CausesValidation="False">QUẢN LÍ HÀNG</asp:LinkButton>
+                                </td>
+                                <td class="auto-style26">
+                                    <asp:LinkButton ID="LinkButton5" runat="server" Font-Bold="True" Font-Names=".VnArial" Font-Underline="False" ForeColor="White" PostBackUrl="~/Admin/Page/DanhSachDonHang.aspx" CausesValidation="False">DANH SÁCH ĐƠN HÀNG</asp:LinkButton>
+                                </td>
+                                <td class="auto-style27">
+                                    &nbsp;</td>
+                                <td class="auto-style28">
+                                    &nbsp;</td>
+                                <td class="auto-style17">
+                                    &nbsp;</td>
+                                <td class="auto-style29">
+                                    &nbsp;</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </asp:Panel>
+        <br />
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <p>
+            </p>
+        
+        </asp:ContentPlaceHolder>
+        <hr />
+    </div>
+        <table class="auto-style16">
+            <tr>
+                <td class="auto-style18" rowspan="2">
+                    <asp:Label ID="Label6" runat="server" Font-Bold="True" Font-Names=".VnArial" ForeColor="#FF9900" Text="TRỤ SỞ CHÍNH"></asp:Label>
+                    <br />
+                    <br />
+                    <span style="color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Địa chỉ: B2 - 08A Khu đô thị Vinhomes Gardenia, Đường Hàm Nghi, P. Cầu Diễn, Q. Nam Từ Liêm, Hà Nội.</span><br style="box-sizing: border-box; font-family: Roboto, sans-serif; margin: 0px; padding: 0px; color: rgb(17, 17, 17); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;" />
+                    <span style="color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Điện thoại: 08686.38888<span>&nbsp;</span></span><br style="box-sizing: border-box; font-family: Roboto, sans-serif; margin: 0px; padding: 0px; color: rgb(17, 17, 17); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;" />
+                    <span style="color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">- Địa chỉ chi nhánh: 183 Trung Kính, Yên Hoà, Cầu Giấy, Hà Nội<span>&nbsp;</span></span><br style="box-sizing: border-box; font-family: Roboto, sans-serif; margin: 0px; padding: 0px; color: rgb(17, 17, 17); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;" />
+                    <span style="color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Điện thoại: 033.23.88888</span><br style="box-sizing: border-box; font-family: Roboto, sans-serif; margin: 0px; padding: 0px; color: rgb(17, 17, 17); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;" />
+                    <span style="color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Hotline: 09686.77777</span><br style="box-sizing: border-box; font-family: Roboto, sans-serif; margin: 0px; padding: 0px; color: rgb(17, 17, 17); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;" />
+                    <span style="color: rgb(17, 17, 17); font-family: Roboto, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Email: vinwine.contact@gmail.com</span></td>
+                <td class="auto-style18" rowspan="2">
+                    <asp:Label ID="Label7" runat="server" Font-Bold="True" Font-Names=".VnArial" ForeColor="#FF9900" Text="PHÒNG KINH DOANH"></asp:Label>
+                    <br />
+                    <br />
+                    <br />
+                    <p style="box-sizing: border-box; font-family: Roboto, sans-serif; margin: 0px 0px 10px !important; padding: 0px; line-height: 21px; color: rgb(17, 17, 17) !important; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">
+                        - Liên Hệ: 08686.38888</p>
+                    <p style="box-sizing: border-box; font-family: Roboto, sans-serif; margin: 0px 0px 10px !important; padding: 0px; line-height: 21px; color: rgb(17, 17, 17) !important; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">
+                        - Liên hệ: 09686.77777</p>
+                </td>
+                <td class="auto-style17" rowspan="2">
+                    <asp:Label ID="Label8" runat="server" Font-Bold="True" Font-Names=".VnArial" ForeColor="#FF9900" Text="HỖ TRỢ KHÁCH HÀNG"></asp:Label>
+                    <br />
+                    <br />
+                    <ul class="list-unstyled list-styled" style="box-sizing: border-box; font-family: Roboto, sans-serif; margin: 0px 0px 10px; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">
+                        <li style="box-sizing: border-box; font-family: Roboto, sans-serif; margin: 0px; padding: 0px;"><a href="https://vinwine.vn/pages/trung-tam-ho-tro-khach-hang" style="box-sizing: border-box; font-family: Roboto, sans-serif; margin: 0px; padding: 0px; background-color: transparent; color: rgb(51, 51, 51); text-decoration: none; outline: none; transition: all 0.2s ease-in-out 0s; font-size: 14px !important;">Trung tâm hỗ trợ khách hàng</a></li>
+                        <li style="box-sizing: border-box; font-family: Roboto, sans-serif; margin: 0px; padding: 0px;"><a href="https://vinwine.vn/pages/dieu-khoan-chung" style="box-sizing: border-box; font-family: Roboto, sans-serif; margin: 0px; padding: 0px; background-color: transparent; color: rgb(51, 51, 51); text-decoration: none; outline: none; transition: all 0.2s ease-in-out 0s; font-size: 14px !important;">Điều khoản chung</a></li>
+                        <li style="box-sizing: border-box; font-family: Roboto, sans-serif; margin: 0px; padding: 0px;"><a href="https://vinwine.vn/pages/huong-dan-mua-hang" style="box-sizing: border-box; font-family: Roboto, sans-serif; margin: 0px; padding: 0px; background-color: transparent; color: rgb(51, 51, 51); text-decoration: none; outline: none; transition: all 0.2s ease-in-out 0s; font-size: 14px !important;">Hướng dẫn mua hàng</a></li>
+                        <li style="box-sizing: border-box; font-family: Roboto, sans-serif; margin: 0px; padding: 0px;"><a href="https://vinwine.vn/pages/huong-dan-thanh-toan" style="box-sizing: border-box; font-family: Roboto, sans-serif; margin: 0px; padding: 0px; background-color: transparent; color: rgb(51, 51, 51); text-decoration: none; outline: none; transition: all 0.2s ease-in-out 0s; font-size: 14px !important;">Hướng dẫn thanh toán, giao hàng</a></li>
+                    </ul>
+                    <p>
+                        &nbsp;</p>
+                    <ul class="list-unstyled list-styled" style="box-sizing: border-box; font-family: Roboto, sans-serif; margin: 0px 0px 10px; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">
+                        <li style="box-sizing: border-box; font-family: Roboto, sans-serif; margin: 0px; padding: 0px;">
+                            <asp:Label ID="Label9" runat="server" Font-Bold="True" Font-Names=".VnArial" ForeColor="#FF9900" Text="PHƯƠNG THỨC THANH TOÁN"></asp:Label>
+                        </li>
+                    </ul>
+                    <p>
+                        &nbsp;</p>
+                    <ul class="list-unstyled list-styled" style="box-sizing: border-box; font-family: Roboto, sans-serif; margin: 0px 0px 10px; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">
+                        <li style="box-sizing: border-box; font-family: Roboto, sans-serif; margin: 0px; padding: 0px;">
+                            <asp:ImageButton ID="ImageButton4" runat="server" Height="54px" ImageUrl="~/image/phương-thức-thanh-toán-của-mgid-3.png" Width="200px" />
+                        </li>
+                    </ul>
+                </td>
+                <td class="auto-style17">
+                    <br />
+                    <asp:ImageButton ID="ImageButton7" runat="server" CssClass="auto-style20" Height="150px" ImageUrl="~/image/FACE.png" Width="250px" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style17">
+                    <asp:ImageButton ID="ImageButton8" runat="server" Height="170px" ImageUrl="~/image/imagebot.jpg" Width="250px" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</html>
